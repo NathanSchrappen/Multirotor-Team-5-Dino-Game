@@ -5,13 +5,6 @@ import getpixelcolor
 
 print("Press Ctrl-C to quit.")
 
-# def detectChromeTheme():
-#     match getpixelcolor.pixel(100, 500):
-#         case tuple(37, 37, 38):
-#             return
-
-
-#     return getpixelcolor.pixel(100, 500)
 
 pyautogui.press("browserhome")
 time.sleep(1)
